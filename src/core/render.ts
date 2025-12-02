@@ -1,4 +1,4 @@
 import { dir } from '@/dir'
-import { RenderTemplate } from 'karin-plugin-mys-core/utils'
+import { ReactRender } from 'karin-plugin-mys-core/render'
 
-export const Render = new RenderTemplate(dir, {})
+export const Render = new ReactRender(dir, {})
